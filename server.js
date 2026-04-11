@@ -634,7 +634,6 @@ app.get('*', (req, res) => {
 });
 
 // ── Start ─────────────────────────────────────────────────────
-const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => {
   const interfaces = require('os').networkInterfaces();
   const lan = Object.values(interfaces).flat()
