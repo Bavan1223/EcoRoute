@@ -4,7 +4,7 @@
 
 const ECOROUTE_CONFIG = {
   // 🔑 Mapbox PUBLIC token (must start with pk. — get from https://account.mapbox.com)
-  MAPBOX_TOKEN: 'your_secret_token_here',
+  MAPBOX_TOKEN: '',
 
   // Map settings
   MAP_STYLE: 'mapbox://styles/mapbox/satellite-streets-v12',
