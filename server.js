@@ -12,6 +12,8 @@
 
 require('dotenv').config();
 const express = require('express');
+const dns = require('dns');
+dns.setServers(['8.8.8.8', '1.1.1.1']); // Fix Node.js Windows SRV resolution bugs
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
